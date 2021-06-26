@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/form.css">
+    <title>INSIDE DIARY 隔離日記</title>
+  </head>
+
+  <body>
+    <div class="cover">
+      <div class="spinner-border text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <header>
+        <img src="image/1.png" alt="" class="img img1">
+        <img src="image/2.png" alt="" class="img img2">
+        <img src="image/3.png" alt="" class="img img3">
+        <img src="image/4.png" alt="" class="img img4">
+        <img src="image/5.png" alt="" class="img img5">
+        <img src="image/6.png" alt="" class="img img6">
+        
+        <img src="image/7.png" alt="" class="img img7">
+        <img src="image/8.png" alt="" class="img img8">
+      </header>
+
+    <nav>
+      <div class="btn btn-outline-dark btn-prev">Back</div>
+      <div class="btn btn-outline-dark btn-next">Next</div>
+      <div type="button" class="btn btn-outline-dark btn-send" href="list.html">Input</div> 
+    </nav>
+
+    <section>
+
+      <form action="https://script.google.com/macros/s/AKfycbwsEtfV34Z7F4FbNjV88w-Wra8jomZfYSwib2lrenLxVBdjI8viwT-jH82Od-HtD-nwYQ/exec" method="POST">
+
+        <article id="article1" class="article1">
+          <div class="form-group main-group">
+            <label for="NAME_HERE">隔離在家的你，突然聽到了陌生的聲音叫了你。你發現是襪子在說話，襪子你叫了你一聲______。</label>
+            <input type="text" class="form-control" id="NAME_HERE" name="NAME_HERE" placeholder="請輸入名子">
+          </div> 
+        </article>
+
+        <article id="article2" class="article2">
+          <div class="form-group main-group">
+            <label for="NUMBER_HERE">那襪子是一隻______。</label>
+            <br>
+            <label for="NUMBER_HERE">(1)爸爸有汗漬的白襪子</label>
+            <br>
+            <label for="NUMBER_HERE">(2)馬丁路德金的白襪子</label>
+            <br>
+            <label for="NUMBER_HERE">(3)媽媽有破洞的黑絲襪</label>
+            <br>
+            <label for="NUMBER_HERE">(4)兒童的橘色針織毛襪</label>
+            <br>
+            <label for="NUMBER_HERE">(5)濕透的阿拉丁圖案襪</label>
+            <input type="text" class="form-control" id="NUMBER_HERE" name="NUMBER_HERE" placeholder="請輸入數字代號">
+          </div> 
+        </article>
+
+
+        <article id="article3" class="article3">
+          <div class="form-group main-group">        
+            <label for="LETTER_HERE">那隻襪子裡有______</label>
+            <br>
+            <label for="LETTER_HERE">(A)一張寫著"Fearless"的拍立得</label>
+            <br>
+            <label for="LETTER_HERE">(B)9張露易莎85折的咖啡優惠卷</label>
+            <br>
+            <label for="LETTER_HERE">(C)💋🍑🥕🎡🎟☃️👅🌮👄</label>
+            <br>
+            <label for="LETTER_HERE">(D)被折成兩半的生日蠟燭</label>
+            <br>
+            <label for="LETTER_HERE">(E)伸手不見五指宇宙黑洞</label>
+            <input type="text" class="form-control" id="LETTER_HERE" name="LETTER_HERE" placeholder="請輸入英文代號">
+          </div>
+        </article>
+
+        <article id="article4" class="article4">
+          <div>
+            <p>
+              你可能很疑惑剛剛發生了什麼事
+              <br>
+              Bo Burnham在隔離的一年裡寫下了20首歌，並製作了這部脫口秀喜劇Inside。
+              <br>
+              影片裡紀錄下創作的過程，並出成了一張專輯，於是本測驗從中挑出了十首歌。
+              <br>
+              這邊從您的答案挑出您可能有興趣的兩首歌，快來看看結果吧。
+            </p>
+          </div>
+            <div class="ENDBTN"> 
+              <a id="start-test" class="btn btn-outline-dark" type="button" name="button" href="main.html">Again</a>
+              <a id="start-test" class="btn btn-outline-dark" type="button" name="button" href="list.html">SEE</a>
+            </div>
+          </article>
+
+        <input type="hidden" id="method" name="method" value="write1">  
+
+      </form>
+
+    </section>
+
+    <footer class=""></footer> 
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+
+  <template id="tipTemplate01" style="display: none;">
+    <div class="tip">
+      <i class="fa fa-exclamation-circle"></i>
+      <span>抓到了</span>
+    </div>
+  </template>
+
+</html>

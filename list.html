@@ -1,0 +1,111 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css" integrity="sha512-CIYsJUa3pr1eoXlZFroEI0mq0UIMUqNouNinjpCkSWo3Bx5NRlQ0OuC6DtEB/bDqUWnzXc1gs2X/g52l36N5iw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>LIST</title>
+  </head>
+
+  <body>
+
+    <nav class="sticky-top">
+      <div id="aplayer"></div>
+
+      <div class="container">
+        <div class="row flex-row">
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song mt-4" data-switch="0">
+              <img src="img/Song1.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song mt-4" data-switch="1">
+              <img src="img/Song2.png">
+            </a>          
+          </div>          
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song mt-4" data-switch="2">
+              <img src="img/Song3.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song mt-4" data-switch="3">
+              <img src="img/Song4.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song" data-switch="4">
+              <img src="img/Song5.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song" data-switch="5">
+              <img src="img/Song6.png">
+            </a>          
+          </div>          
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song" data-switch="6">
+              <img src="img/Song7.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song" data-switch="7">
+              <img src="img/Song8.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song mb-2" data-switch="8">
+              <img src="img/Song9.png">
+            </a>          
+          </div>
+          <div class="col-md-3">
+            <a href="javascript:void();" class="Song mb-2" data-switch="9">
+              <img src="img/Song10.png">
+            </a>          
+          </div>
+          <div class="col-md-6 d-flex justify-content-center  p-0 ">
+            <a href="main.html" class="again mb-2">
+              <img src="img/again.png">
+            </a>        
+          </div>          
+        </div>
+      </div>
+    </nav>
+    <!-- 輸出資料 -->
+    <div class="container"><!-- container-fluid -->
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="1 " scope="col">編號 </th>
+                <th class="2 " scope="col">襪子叫了你</th>
+                <th class="3 " scope="col">第一首歌</th>
+                <th class="4" scope="col">第二首歌</th>
+              </tr>
+            </thead>
+          <tbody></tbody>
+          </table> 
+        </div> 
+      </div>   
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js" integrity="sha512-RWosNnDNw8FxHibJqdFRySIswOUgYhFxnmYO3fp+BgCU7gfo4z0oS7mYFBvaa8qu+axY39BmQOrhW3Tp70XbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/list.js"></script>
+  </body>
+  <!--   表格樣板內容 -->
+  <template id="tr01" tyle="display:none;">
+    <tr >
+      <th scope="row" s>LIST_HERE</th>
+      <td>NAME_HERE</td>
+      <td>NUMBER_HERE</td>
+      <td>LETTER_HERE</td>
+    <tr>
+  </template>
+</html>
+
